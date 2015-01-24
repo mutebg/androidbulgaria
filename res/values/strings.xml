@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">Android Bulgaria Forum App</string>
+	<string name="BASE_URL">http://stoyandelev.com/forum/</string>
+	<string name="about_title">За приложението</string>
+	<string name="about_text">Приложението Android Bulgaria Forum App е създадено за най-големият български форум посветен на Android OS - www.androidbg.com \n\nАвтор: Стоян Делев (nickname: mute) \n\nПри проблеми: mutebg@gmail.com\n\nДизайн: Янко Андреев\nhttp://yankoa.deviantart.com</string>
+	<string-array name="topic_per_page">
+		<item>10</item>
+		<item>25</item>
+		<item>50</item>
+	</string-array>
+	<string-array name="topic_per_page_values">
+		<item>10</item>
+		<item>25</item>
+		<item>50</item>
+	</string-array>
+	
+	<string-array name="open_topic_type">
+		<item>Първа страница</item>
+		<item>Последна страница</item>
+		<item>Нови мнения</item>
+	</string-array>	
+	<string-array name="open_topic_type_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>	
+	
+	<string-array name="theme_names">
+		<item>Светла тема</item>
+		<item>Тъмна тема</item>
+	</string-array>	
+	<string-array name="theme_values">
+		<item>0</item>
+		<item>1</item>
+	</string-array>	
+	    	    
+</resources>

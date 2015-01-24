@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Потребителско име"
+	    />
+	 <EditText 
+	 	android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	   	android:id="@+id/user_name"
+		/>
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Парола"
+	    />
+	<EditText 
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	   	android:id="@+id/user_pass"
+		android:password="true"
+		/> 	 
+	<Button
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:id="@+id/user_login_btn"
+	    android:text="Влез"
+		/>	
+		
+	<TextView 
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	   	android:id="@+id/btn_link_registration"
+	   	android:layout_marginTop="20px"
+		/>	
+	<TextView 
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	   	android:id="@+id/btn_link_forgotpass"
+	   	android:layout_marginTop="10px"
+		/>	
+</LinearLayout>

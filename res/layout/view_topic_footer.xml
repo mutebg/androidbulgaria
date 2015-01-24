@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="5dip"
+   
+    >
+ 	
+ 	<TableLayout
+ 		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		
+ 		android:layout_gravity="center">
+ 		<TableRow
+ 			android:layout_width="fill_parent"
+ 			>
+ 			<ImageButton
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		      	android:id="@+id/btn_prev_page" 
+		        android:src="@drawable/btn_prev"
+		        android:layout_gravity="left" 
+		        android:visibility="invisible" 
+		        android:layout_weight="0"/>
+		        
+		    
+		    <Button
+		    	android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/btn_reply" 
+		    	android:text="Отговор"
+		   	 	android:layout_gravity="center" 
+		   	 	android:visibility="visible" 
+		   	 	android:layout_weight="1"/>
+		   	 
+		   	 <Button
+		    	android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/btn_select_page" 
+		    	android:text="Страници"
+		   	 	android:layout_gravity="center" 
+		   	 	android:visibility="gone"
+		   	 	android:layout_weight="1"/> 	
+		        
+			
+			<ImageButton
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/btn_next_page" 
+		        android:src="@drawable/btn_next"
+		        android:layout_gravity="right" 
+		        android:visibility="invisible" 
+		        android:layout_weight="0"/>
+		                	
+ 		</TableRow>
+ 	</TableLayout>
+ 	   
+    
+ 
+</LinearLayout>

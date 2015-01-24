@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+   	style="?headClass"
+    >
+    
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dip"
+        android:id="@+id/btn_back_to_index" android:src="@drawable/btn_back"/>
+	
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        
+        <TextView
+           
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+           	android:id="@+id/v_forum_name"
+        	android:text=""
+           	style="?headClassText"
+        />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:singleLine="true"
+           	android:id="@+id/v_forum_pages"
+        	android:text=""
+        	style="?headClassSubText"
+           	/>
+    </LinearLayout>
+    
+     <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_top_pages" 
+        android:src="@drawable/btn_pages"
+        android:visibility="gone"
+        />   	
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="5dip"
+           	android:text="Заглавие на темата" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+			android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingBottom="5dip"
+			android:text="" 
+			android:gravity="top|left"
+			android:id="@+id/reply_subject"
+			/>
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="5dip"
+           	android:text="Напиши съобщение" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+			android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingBottom="5dip"
+			android:text="" 
+			android:gravity="top|left"
+			android:id="@+id/reply_message"
+			/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			style="?headClass"
+			>
+            <Button
+                android:layout_width="0dip"
+                android:layout_weight="1.0"
+                android:layout_height="wrap_content" 
+				android:text="Изпрати" 
+				android:id="@+id/btn_send_reply"
+				/>
+            <Button
+                android:layout_width="0dip"
+                android:layout_weight="1.0"
+                android:layout_height="wrap_content" 
+				android:id="@+id/btn_cancel_reply"
+                android:text="Откажи" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

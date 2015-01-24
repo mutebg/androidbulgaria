@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- View styles -->
+	<attr name="headClass" 			format="reference|dimension" />
+	<attr name="headClassText" 		format="reference|dimension" />
+	<attr name="headClassSubText" 	format="reference|dimension" />
+	
+	<attr name="activeColor" 		format="reference" />
+	<attr name="pasiveColor" 		format="reference" />
+	<attr name="readColor" 			format="reference" />
+	
+</resources>
